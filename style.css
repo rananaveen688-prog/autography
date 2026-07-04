@@ -1,0 +1,890 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.nav_bar ul {
+    font-weight: 500;
+    font-size: smaller;
+    text-transform: uppercase;
+    display: flex;
+    gap: 5rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.header_signup_btn {
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.7rem;
+    color: #5589e6;
+    border-color: #5589e6;
+    font-size: 0.9rem;
+}
+
+.wrap_header {
+    height: 67px;
+}
+
+.header_sign{
+    display: none;
+}
+
+.header_signup_btn svg {
+    width: 23px;
+    fill: #5757cc;
+    height: 23px;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header_logo h4,
+.header_logo span {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    max-width: 180px;
+}
+
+.walk-in-the-nature-contest svg {
+    width: 16px;
+}
+
+.wrap-winner-author-award {
+    background: #dfdbdb;
+    text-align: center;
+    padding: 12px 4px 62px 20px;
+}
+
+.walk-in-the-nature-contest img {
+    width: 100%;
+}
+
+.walk-in-the-nature-contest {
+    overflow: hidden;
+    padding: 0;
+    border-radius: 0.6rem;
+    height: 17rem;
+    max-width: 25.2rem;
+    width: 100%;
+    border: 1px solid #a99f9f;
+}
+
+.our-category {
+    padding-top: 16rem;
+    padding-bottom: 3rem;
+}
+
+.walk-in-the-nature {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    left: 0;
+    bottom: 40rem;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-winner-author-award h4 {
+    overflow: hidden;
+    color: #c6b6b6;
+    font-size: 15px;
+}
+
+.wrap-winner-author-award h4 strong {
+    color: #454141;
+}
+
+.walk-in-the-nature-contest h3 {
+    text-align: center;
+    margin: 0;
+    background: #f1f1f1;
+    padding: 6rem 0rem 0.5rem 0rem;
+    overflow: hidden;
+    color: #4f4fce;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: system-ui;
+    text-transform: capitalize;
+}
+
+.left-our-category {
+    padding-left: 5rem;
+}
+
+.right-discover-btn {
+    text-align: end;
+    padding-right: 4rem;
+}
+
+.walk-in-the-nature-contest span {
+    color: #a49b9b;
+    font-size: 13px;
+}
+
+.header_logo span {
+    font-weight: 500;
+    color: #898585;
+}
+
+.nav_bar {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background-color: #5589e6;
+    justify-content: center;
+}
+
+.header_sign_up {
+    display: grid;
+    place-content: center;
+}
+
+/* hero-section */
+
+.hero-section {
+    position: relative;
+}
+
+.wrap-hero-and-category {
+    background-image: url(images/banner-bg.jpg);
+    background-position: center center;
+    width: 100%;
+    background-size: cover;
+    aspect-ratio: 20 / 9;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper-hero {
+    padding-top: 11rem;
+    text-align: center;
+}
+
+.wrapper-hero h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: auto;
+    max-width: 60rem;
+    line-height: 3rem;
+    width: 100%;
+    color: #fff;
+}
+
+.wrapper-hero code {
+    color: cornflowerblue;
+}
+
+.wrapper-hero p {
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #fff;
+    margin: auto;
+    max-width: 55rem;
+}
+
+.explore-snapx {
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    border-color: #fff;
+    color: #fff;
+    background: transparent;
+    font-family: sans-serif;
+}
+
+.watch-our-video svg {
+    width: 13px;
+    fill: #fff;
+}
+
+.watch-our-video {
+    border: none;
+    display: inline-flex;
+    gap: 0.4rem;
+    align-items: center;
+    padding: 1rem 1rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.8rem;
+    background: transparent;
+}
+
+.wrapper-hero h2::after {
+    display: inline-block;
+    content: "";
+    background: #e1e1e1;
+    width: 57rem;
+    margin: auto;
+    height: 0.1px;
+}
+
+/* our category */
+
+.left-our-category h3 {
+    font-size: 14px;
+    overflow: hidden;
+    text-transform: uppercase;
+    color: #2656ae;
+}
+
+.left-our-category h1 {
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+.discover-categoty-btn {
+    border-color: #6060cf;
+    padding: 0.6rem 1.6rem;
+    color: #fff;
+    background: #6060cf;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    border-radius: 0.5rem;
+}
+
+.left-our-category span {
+    color: #4c4cd2;
+}
+
+.left-nature-img h2 {
+    overflow: hidden;
+    font-size: 19px;
+}
+
+.left-nature-text h2 {
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.left-bottom_number {
+    color: #47478f;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.right-available-contest {
+    font-size: 14px;
+    color: #948b8b;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.contest-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.contest-img {
+    max-width: 19rem;
+    height: 10rem;
+    margin: 2rem auto 0 auto;
+    overflow: hidden;
+}
+
+.warpper-contest {
+    border-radius: 18px;
+    max-width: 21rem;
+    border: 1px solid #f1f1f1;
+}
+
+.wrap-all-contest {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrap-data {
+    display: flex;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    align-items: center;
+}
+
+.left-nature-img {
+    padding-left: 3rem;
+}
+
+.browse-nature-pic-contest {
+    width: 83%;
+    color: #fff;
+    border-color: cornflowerblue;
+    background: cornflowerblue;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    font-size: small;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    padding: 0.5rem;
+}
+
+.browse-nature {
+    padding-top: 1.4rem;
+    text-align: center;
+}
+
+/* previous contest winners */
+
+.previous-contest-section {
+    background-position: center;
+    background-image: url(images/closed-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.wrap-previous-contest {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.wrap-previous-contest h4 {
+    overflow: hidden;
+    font-size: small;
+    font-weight: 600;
+    color: cornflowerblue;
+    font-family: sans-serif;
+}
+
+.wrap-previous-contest h2 {
+    font-weight: 600;
+    color: cornflowerblue;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+}
+
+.wrap-previous-contest-image {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.merge-contest-img-with-content img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.merge-contest-img-with-content img {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.left-wrap-previous-contest-text h5 {
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+.left-wrap-previous-contest-text span {
+    font-size: medium;
+    color: #7f7777;
+    font-weight: 500;
+}
+
+.right-wrap-previous-contest-text h5 {
+    font-size: medium;
+    overflow: hidden;
+}
+
+.wrap-previous-contest-text span {
+    font-size: medium;
+    color: #7f7777;
+    font-weight: 500;
+}
+
+.winner-browse-open-contest-btn {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.browse-open-contest-btn {
+    font-weight: 600;
+    padding: 0.4rem 2rem;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: dodgerblue;
+    border-color: dodgerblue;
+    border-radius: 0.5rem;
+}
+
+.wrap-previous-contest-text {
+    margin: 0;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    background: #fff;
+}
+
+.right-wrap-previous-contest-text {
+    text-align: end;
+    padding-right: 2rem;
+}
+
+.wrap-previous-contest span {
+    color: #222;
+}
+
+/* Our Pricing */
+
+.wrap-plans-and-price {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+    max-width: 23rem;
+    border-radius: 0.6rem;
+    border: 1px solid #a59b9b;
+}
+
+.wrap-our-pricing-content {
+    text-align: center;
+}
+
+.wrapper-plans-and-price {
+    display: flex;
+    padding-top: 3rem;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.our-pricing-section {
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+
+.wrap-our-pricing-content h6 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: cornflowerblue;
+    font-size: 0.9rem;
+}
+
+.wrap-our-pricing-content h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    overflow: hidden;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.wrap-our-pricing-content {
+    text-align: center;
+}
+
+.wrapper-plans-and-price {
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+}
+
+.our-pricing-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.wrap-plans-and-price h4 {
+    font-weight: 600;
+    line-height: 5rem;
+    padding-bottom: 2rem;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.wrap-plans-and-price h4::after {
+    margin: auto;
+    display: block;
+    height: 1px;
+    width: 19rem;
+    content: "";
+    background: #8d7575;
+}
+
+.wrap-plans-and-price p {
+    color: cornflowerblue;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.wrap-plans-and-price del {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #6a6060;
+}
+
+.wrap-plans-and-price h1 {
+    padding-bottom: 1.3rem;
+    padding-top: 1.3rem;
+    font-weight: 700;
+    color: cornflowerblue;
+    overflow: hidden;
+    font-size: 1.7rem;
+}
+
+.choose-this-plan-btn .plan-btn {
+    font-weight: 500;
+    border: 1px solid;
+    color: cornflowerblue;
+    background: #fff;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+}
+
+.wrap-our-pricing-content span {
+    color: cornflowerblue;
+}
+
+.plans-del {
+    margin: auto;
+    line-height: 1.7rem;
+    max-width: 13rem;
+}
+
+/* footer */
+
+.copright-content {
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+
+.snapx-footer {
+    padding: 1.5rem 0;
+    color: #fff;
+    background: cornflowerblue;
+}
+
+.copright-content svg {
+    fill: #fff;
+}
+
+.hamburger {
+    gap: 8px;
+    flex-direction: column;
+    display: none;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hamburger span {
+    height: 3px;
+    background: red;
+    width: 35px;
+    display: block;
+    border-radius: 2px;
+}
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 1392px) {
+    .walk-in-the-nature {
+        position: static;
+        padding-top: 3rem;
+    }
+
+    .walk-in-the-nature {
+        margin: auto;
+    }
+
+    .our-category {
+        padding-top: 6rem;
+    }
+
+    .wrap-data {
+        padding-bottom: 2rem;
+    }
+
+    .wrapper-hero h2 {
+        font-size: 3rem;
+    }
+
+    .wrapper-hero p {
+        max-width: 46rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .wrap-hero-and-category {
+        aspect-ratio: 15 / 9;
+    }
+
+    .hamburger.active span:nth-child(2) {
+        visibility: hidden;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: translateY(-12px) rotate(-45deg);
+    }
+
+    .hamburger {
+        display: flex;
+        padding-right: 2em;
+    }
+
+    .header_logo {
+        display: flow;
+        padding: 1em 1em 1em 2em;
+    }
+
+    .nav_bar {
+        display: none;
+        order: 4;
+    }
+
+    .header_sign_up {
+        display: none;
+    }
+
+    .wrap_header {
+        height: auto;
+    }
+
+    .header_sign {
+        padding: 1px 0px 14px 15px;
+    }
+
+    .header_sign{
+        display: block !important;
+    }
+
+    .nav_bar ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1em;
+    }
+
+    .nav_bar ul li {
+        font-weight: 600;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+    }
+
+    .our-pricing-section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .walk-in-the-nature-contest {
+        max-width: none;
+        height: auto;
+    }
+
+    .right-discover-btn {
+        text-align: center;
+        padding: 0;
+    }
+
+    .walk-in-the-nature-contest h3 {
+        padding-top: 10rem;
+    }
+
+    .wrap-winner-author-award {
+        padding-bottom: 104px;
+    }
+
+    .left-wrap-previous-contest-text,
+    .right-wrap-previous-contest-text {
+        width: 50%;
+    }
+
+    .left-our-category {
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .wrapper-hero {
+        padding-top: 8rem;
+    }
+
+    .previous-contest-section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .wrapper-hero h2 {
+        font-size: 2rem;
+    }
+
+    .wrapper-hero h2::after {
+        width: 40rem;
+    }
+
+    .wrapper-hero p {
+        max-width: 40rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper-hero {
+        padding-top: 4rem;
+    }
+
+    .contest-img {
+        height: 23rem;
+        max-width: none;
+    }
+
+    .warpper-contest {
+        max-width: none;
+    }
+
+    .left-bottom_number {
+        padding-left: 7.7rem;
+    }
+
+    .left-nature-img {
+        text-align: end;
+    }
+
+    .our-category {
+        padding-top: 4rem;
+    }
+
+    .left-our-category {
+        padding-left: 0;
+    }
+
+    .wrap-data {
+        padding-top: 1rem;
+    }
+
+    .browse-nature-pic-contest {
+        width: 100%;
+    }
+
+    .left-nature-text h2 {
+        text-align: center;
+        padding-right: 3rem;
+    }
+
+    .wrap-our-pricing-content h3 {
+        font-size: 1.4rem;
+    }
+
+    .our-pricing-section {
+        padding-top: 2rem;
+    }
+
+    .wrapper-hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .explore-with-watch-btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrap-hero-and-category {
+        aspect-ratio: 15 / 9;
+    }
+
+    .watch-our-video {
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+    .wrap-previous-contest h2 {
+        font-size: 1.3rem;
+    }
+
+    .wrap-previous-contest {
+        padding-bottom: 2rem;
+    }
+
+    .wrap-previous-contest h4 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .wrap-hero-and-category {
+        aspect-ratio: 14 / 9;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .wrap-hero-and-category {
+        aspect-ratio: 12 / 9;
+    }
+
+    .watch-our-video {
+        padding-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 534px) {
+    .wrapper-hero h2 {
+        font-size: 1.2rem;
+    }
+
+    .wrap-hero-and-category {
+        aspect-ratio: 12 / 10;
+    }
+}
+
+@media screen and (max-width: 491px) {
+    .wrap-hero-and-category {
+        aspect-ratio: 10 / 10;
+    }
+}
+
+@media screen and (max-width: 422px) {
+    .wrapper-hero h2 {
+        line-height: 1.4rem;
+    }
+
+    .wrap-hero-and-category {
+        aspect-ratio: 9 / 10;
+    }
+
+    .left-wrap-previous-contest-text,
+    .right-wrap-previous-contest-text {
+        width: 100%;
+        line-height: 3rem;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .wrap-hero-and-category {
+        aspect-ratio: 8 / 10;
+    }
+}
+
+@media screen and (max-width: 339px) {
+    .wrap-hero-and-category {
+        aspect-ratio: 8 / 11;
+    }
+}
